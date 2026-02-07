@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>💖 Valentine Letter 💖</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #yesBtn {
+            background-color: #ff4d88;
+            color: white;
+        }
+        #noBtn {
+            background-color: #ccc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>💌 For You 💌</h1>
+    <p>Will you be my Valentine? 💘</p>
+
+    <button id="yesBtn" onclick="yesClicked()">Yes 💖</button>
+    <button id="noBtn" onclick="noClicked()">No ❌</button>
+
+    <script>
+        function yesClicked() {
+            alert("Yay! 💕 I’m so happy you said YES! 🌹");
+        }
+
+        function noClicked() {
+            alert("Hmm… I knew you couldn’t say no 😏💕");
+        }
+    </script>
+
+</body>
+</html>
